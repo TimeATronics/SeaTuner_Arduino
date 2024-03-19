@@ -13,25 +13,25 @@ void loop() {
   note = ReadNote();
   switch(note) {
     case 0:
-      Serial.println("The Bowl number C");
+      Serial.println("C");
       break;
     case 2:
-      Serial.println("The Bowl number D");
+      Serial.println("D");
       break;      
     case 4:
-      Serial.println("The Bowl number E");
+      Serial.println("E");
       break;
     case 5:
-      Serial.println("The Bowl number F");
+      Serial.println("F");
       break;
     case 7:
-      Serial.println("The Bowl number G");
+      Serial.println("G");
       break;
     case 9:
-      Serial.println("The Bowl number A");
+      Serial.println("A");
       break;
     case 11:
-      Serial.println("The Bowl number B");
+      Serial.println("B");
       break;
     default:
       Serial.println("Not detected.");
